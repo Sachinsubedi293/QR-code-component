@@ -49,18 +49,34 @@ body {
     color: hsl(218, 44%, 22%);
     font-size: 20px;
 }
-p{
+
+p {
     font-size: 15px;
-    font-family: 'Outfit',sans-serif;
+    font-family: 'Outfit', sans-serif;
     text-align: center;
     padding-top: 0%;
     margin-top: 3%;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
 }
+
 @media only screen and (max-width: 375px) {
+
     /* For mobile phones: */
-   .card{
-       width: 80%;
-   }
-  }
+    .card {
+        width: 80%;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    bottom: 0%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-family: 'Outfit', sans-serif;
+}
